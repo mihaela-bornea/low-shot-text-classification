@@ -395,7 +395,7 @@ if __name__ == '__main__':
     print('\n'+str(datetime.datetime.now()))
 
     #np.random.seed(98634975)
-    #torch.manual_seed(744875692)
+    torch.manual_seed(744875692)
     
     parser = argparse.ArgumentParser()
     parser.add_argument("--seed", help="Random seed", type=int, default=98634975)
@@ -442,7 +442,7 @@ if __name__ == '__main__':
 
     random.seed(args.seed)
     np.random.seed(args.seed)
-    torch.manual_seed(args.seed)
+    #torch.manual_seed(args.seed)
     
     num_iter_per_episode = args.ep_iter_count
 
