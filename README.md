@@ -19,13 +19,13 @@ The original dataset can be fond at:
 http://www.cs.jhu.edu/~ozaidan/rationales/
 
 We used the pretrained embeddings from: 
-https://code.google.com/archive/p/ word2vec/
+https://code.google.com/archive/p/word2vec/
 
 ## Running the Experiments:
 
 ### **RB_BOW_PROTO**
 
-python few_shot_experiment.py --model PROTOTYPE --rep W2V --norm True --bias 6 --min_word_count 0 --output experiment_w2v.txt --embeddings <path_to_embeddings_file> --data_dir data --dataset <movie_reviews or aviation> --ep_iter_count 30
+<pre><code>python few_shot_experiment.py --model PROTOTYPE --rep W2V --norm True --bias 6 --min_word_count 0 --output experiment_w2v.txt --embeddings <path_to_embeddings_file> --data_dir data --dataset <movie_reviews or aviation> --ep_iter_count 30 <pre><code>
 
 ### **BOW_PROTO**
 
