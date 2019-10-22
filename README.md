@@ -6,10 +6,10 @@ Oren Melamud, Mihaela Bornea and Ken Barker Conference on Empirical Methods in N
 
 ## Requirements
 
-pythion 3.7
-pythorch 1.0
-pytorch-pretrained-bert 0.6.2
-spacy 2.0
+python 3.7  
+pythorch 1.0  
+pytorch-pretrained-bert 0.6.2  
+spacy 2.0  
 
 ## Dataset Description
 The data directory contains the train, dev and text files for the moview reviews(IMDB)  and aviation reports (ASRS) datasets.
