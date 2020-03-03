@@ -21,6 +21,11 @@ https://code.google.com/archive/p/word2vec/
 The code requires the conversion of word vectors from the bin format to the txt format.
 Bin to txt conversion tool: https://github.com/marekrei/convertvec
 
+Convert from the txt to numpy format. 
+``` 
+python embedding/text2numpy.py <path_to_embeddings_file> <path_to_embeddings_file> 
+```
+
 
 ## Running the Experiments:
 
