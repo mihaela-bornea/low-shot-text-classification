@@ -26,6 +26,15 @@ Convert from the txt to numpy format.
 python embedding/text2numpy.py <path_to_embeddings_file> <path_to_embeddings_file> 
 ```
 
+We recommend that all embedding files are stored in the same folder. 
+The scripts below use the path to the .txt embedding file.
+
+```
+ls embeddings
+  GoogleNews-vectors-negative300.bin.txt		
+  GoogleNews-vectors-negative300.bin.txt.vocab
+  GoogleNews-vectors-negative300.bin.txt.npy
+```
 
 ## Running the Experiments:
 
